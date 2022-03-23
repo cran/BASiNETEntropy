@@ -18,7 +18,7 @@ maxentropy <- function(histogram) {
 	for (t in seq_len(4095)) {
 		P0 <- 0
 		P1 <- 0
-		for (i in seq_along(t)) {
+		for (i in seq_len(t)) {
 			P0 <- P0 + descendinghistogram[i] / totalofpixels
 		}
 		for (i in (t + 1):4096) {

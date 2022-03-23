@@ -28,7 +28,7 @@
 #'arqSeqLNCRNA <- system.file("extdata", "ncRNA.fasta", package = "BASiNETEntropy")
 #'load(system.file("extdata", "trainingResult.RData", package = "BASiNETEntropy"))
 #'r_classify <- classify(mRNA=arqSeqMRNA, lncRNA=arqSeqLNCRNA, trainingResult = trainingResult)
-#'
+
 #'@importFrom Biostrings readBStringSet
 #'@import igraph
 #'@import randomForest
@@ -202,7 +202,6 @@ classify <- function(mRNA, lncRNA, sncRNA = NULL, trainingResult,
 		                          tamM = length(sequenciam),
 		                          tamLNC = length(sequencial))
 	DF <- data[, -11]
-	DF[] <- as.numeric(factor(as.matrix(DF)))
 	DF[is.na(DF)] <- 0
 	message("[INFO] Sorting with Randomforest")
 	rf <- randomForest(DF, as.factor(data[, 11]))
