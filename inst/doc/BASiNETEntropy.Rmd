@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 
 ## Introduction
 <div style="text-align: justify">
-The BASiNET package aims to classify messenger RNA and long non-coding RNA, optionally also a third class such as small non-coding RNA may be included. The classification is made from measurements drawn from complex networks, for each RNA sequence a complex network is created. The networks are formed of vertices and edges, the vertices will be formed by words that can have their size defined by the parameter 'word'. Instead of using the threshold approach, this version of BASiNET uses the maximum entropy approach to remove the thresholds. The training step is necessary to obtain the entropy curves and then the edge list to be cut. Finally, all measurements taken from the networks are used for classification using the algorithm Random Forest. There are two data present in the 'BASiNETEntropy' package, "mRNA.fasta" and "ncRNA" with 100 sequences both. These sequences were taken from the data set used in the article (LI, Aimin; ZHANG, Junying; ZHOU, Zhongyin, Plek: a tool for predicting long non-coding messages and based on an improved k-mer scheme BMC bioinformatics, BioMed Central, 2014). These sequences are used to run examples.
+The BASiNET package aims to classify messenger RNA and long non-coding RNA, optionally also a third class such as small non-coding RNA may be included. The classification is made from measurements drawn from complex networks, for each RNA sequence a complex network is created. The networks are formed of vertices and edges, the vertices will be formed by words that can have their size defined by the parameter 'word'. Instead of using the threshold approach, this version of BASiNET uses the maximum entropy approach to remove the thresholds. The training step is necessary to obtain the entropy curves and then the edge list to be cut. Finally, all measurements taken from the networks are used for classification using the algorithm Random Forest. There are two data present in the 'BASiNETEntropy' package, "mRNA.fasta" and "ncRNA" with 10 sequences both. These sequences were taken from the data set used in the article (LI, Aimin; ZHANG, Junying; ZHOU, Zhongyin, Plek: a tool for predicting long non-coding messages and based on an improved k-mer scheme BMC bioinformatics, BioMed Central, 2014). These sequences are used to run examples.
 </div>
 
 ## Instalation
@@ -46,8 +46,8 @@ Parameters:
 **lncRNA** - Directory of an FASTA file containing lncRNA sequences.  
 **sncRNA** - Directory of an FASTA file containing lncRNA sequences, this parameter is optional.  
 **trainingResult** - The result of the training, (three or two matrices)  
-**save_dataframe** -  save when set, this parameter saves a .csv file with the features in the current directory. No file is created by default.  
-**save_model** -  save when set, this parameter saves a .rds file with the model in the current directory. No file is created by default.
+**save_dataframe** -  Boolean. This parameter saves a .csv file with the features in the current directory. No file is created by default.  
+**save_model** -  Boolean. This parameter saves a .rds file with the model in the current directory. No file is created by default.
 
 </div>
 <div style="text-align: justify">

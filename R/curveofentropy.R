@@ -9,6 +9,7 @@
 #'@return Returns a entropy curve
 #'@author Murilo Montanini Breve
 #'@importFrom graphics abline axis legend text plot
+#'@export
 curveofentropy <- function(H, threshold) {
 	H <- unlist(H)
 	threshold <- unlist(threshold)

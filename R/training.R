@@ -18,6 +18,7 @@
 #'@importFrom graphics abline axis legend text
 #'@importFrom stats sd
 #'@importFrom utils write.csv2
+#'@export
 training <- function(mRNA, lncRNA, sncRNA = NULL) {
 	MRNA <- readBStringSet(mRNA)
 	LNCRNA <- readBStringSet(lncRNA)

@@ -105,7 +105,6 @@ classify <- function(mRNA, lncRNA, sncRNA = NULL, trainingResult,
 		                                      v = V(net),
 		                                      directed = FALSE,
 		                                      weights = NULL,
-		                                      nobigint = TRUE,
 		                                      normalized = FALSE)))
 		measures<-c(measures,sd(degree(net,
 		                               v=V(net),

@@ -46,7 +46,6 @@ arqSeqMRNA <- system.file("extdata", "mRNA.fasta",package = "BASiNETEntropy")
 arqSeqLNCRNA <- system.file("extdata", "ncRNA.fasta", package = "BASiNETEntropy")
 load(system.file("extdata", "trainingResult.RData", package = "BASiNETEntropy"))
 r_classify <- classify(mRNA=arqSeqMRNA, lncRNA=arqSeqLNCRNA, trainingResult = trainingResult)
-
 }
 \author{
 Murilo Montanini Breve
