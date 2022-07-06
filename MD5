@@ -1,6 +1,6 @@
-37843d3d70eeef7d335ea06b03396f8c *DESCRIPTION
+f747981be9c29f4f415c343261c31c14 *DESCRIPTION
 98e70c358f007cb370a537b08547480b *NAMESPACE
-3668ba8f408558bb564e1906c68a97f5 *R/classify.R
+ae2591469d3952d0af358a526db1ea5c *R/classify.R
 93ac599bce210b6af36062a5501b33c0 *R/createedges.R
 e0328d4085fb6f344c5fbbcac18aa783 *R/creatingDataframe.R
 ca91f49416e7721ca37ea07f7f1c0a95 *R/curveofentropy.R
@@ -11,11 +11,11 @@ ad99122bc951853131d6b64578b5aa73 *R/matrixmultiplication.R
 3551b064cbc8b051495225a08fc90712 *R/preprocessing.R
 290671f588a0ad7cc17268a5e5fea6da *R/selectingEdges.R
 f766dacf25c26ca2d45e21ced980fc87 *R/training.R
-3a5c6687b930ee3c530b3b0817c88379 *README.md
+74e33d888d89087d0dc13f133d339a42 *README.md
 9a2b1bfd599a3f4c4d89f1838bd06bad *build/vignette.rds
 f11506157fd7db53b737e3b19465fd4b *inst/doc/BASiNETEntropy.R
 76bfc358b10e3c9347c526dc198a839f *inst/doc/BASiNETEntropy.Rmd
-89aa7c6f1f3d8f35f3e068a707f461eb *inst/doc/BASiNETEntropy.html
+54f762effb96d4f761cb12b0cd1e1fa0 *inst/doc/BASiNETEntropy.html
 e392c42eb6e9653eeeaeeca688ff6cf9 *inst/extdata/mRNA.fasta
 8fe1b7bad6e89988c2f02f336977103b *inst/extdata/ncRNA.fasta
 931beb73065a6de13c3efe4387ce9110 *inst/extdata/trainingResult.RData
