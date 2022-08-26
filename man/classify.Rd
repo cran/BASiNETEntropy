@@ -11,7 +11,8 @@ classify(
   sncRNA = NULL,
   trainingResult,
   save_dataframe = NULL,
-  save_model = NULL
+  save_model = NULL,
+  predict_with_model = NULL
 )
 }
 \arguments{
@@ -29,6 +30,9 @@ the features in the current directory. No file is created by default.}
 
 \item{save_model}{save when set, this parameter saves a .rds file with
 the model in the current directory. No file is created by default.}
+
+\item{predict_with_model}{predict the input sequences with the previously
+generated model.}
 }
 \value{
 Results
